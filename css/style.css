@@ -245,7 +245,7 @@ textarea {
   padding-left: 2px;
   text-transform: lowercase;
   letter-spacing: 2px;
-  color: #a5a5a5;
+  color: #2a2a2a;
 }
 /*----------------------*/
 /*   FOOTER             */
@@ -279,7 +279,7 @@ textarea {
   color: #272727;
 }
 .padding {
-  padding: 85px 0;
+  padding: 15px 0;
   overflow: hidden;
 }
 .text-right {
