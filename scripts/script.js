@@ -102,8 +102,13 @@ jQuery.noConflict()(function ($) {
 
 
     var vl_portfolio_item_gutter = function(){
-        var $item = $('.portfolio-item'),
-            $cont = $('.portfolio-masonry-wrapper'),
+        var $cont = $('.portfolio-masonry-wrapper').not('.portfolio-masonry-centered');
+
+        if (!$cont.length) {
+            return;
+        }
+
+        var $item = $cont.find('.portfolio-item'),
             $gut = parseInt($cont.attr('data-gutter')/2, 10);
 
             $cont.css({
@@ -119,7 +124,8 @@ jQuery.noConflict()(function ($) {
     var vl_filter_toggle = function(){
         var $body = $('body'),
             $filterToggle = $('.toggle-filter'),
-            $container = $('.portfolio-list');
+            $container = $('.portfolio-list'),
+            $centeredGrid = $container.filter('.portfolio-grid-centered');
 
         var filterToggleFunc = function() {
         
@@ -129,6 +135,27 @@ jQuery.noConflict()(function ($) {
 
         $filterToggle.on('click', filterToggleFunc);
 
+        if ($centeredGrid.length) {
+            $('.filters-wrap a').on('click', function (e) {
+                e.preventDefault();
+
+                var filter = $(this).attr('data-filter');
+
+                $('.filters-wrap a').removeClass('active');
+                $(this).addClass('active');
+
+                if (filter === '*') {
+                    $centeredGrid.find('.portfolio-item').show();
+                } else {
+                    $centeredGrid.find('.portfolio-item').hide();
+                    $centeredGrid.find(filter).show();
+                }
+
+                return false;
+            });
+
+            return;
+        }
 
         $container.imagesLoaded(function() {
             $container.isotope({

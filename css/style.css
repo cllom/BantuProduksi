@@ -1497,6 +1497,16 @@ body .frame-line.left-frame {
   text-align: left;
   display: inline-block;
 }
+.portfolio-date {
+  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #a5a5a5;
+  opacity: 0;
+  transform: translateY(-7px);
+  transition: all 0.25s 0.1s ease;
+}
 .portfolio-categories,
 .portfolio-title {
   opacity: 0;
@@ -1524,7 +1534,8 @@ body .frame-line.left-frame {
   }
 }
 .portfolio-item a:hover .portfolio-categories,
-.portfolio-item a:hover .portfolio-title {
+.portfolio-item a:hover .portfolio-title,
+.portfolio-item a:hover .portfolio-date {
   opacity: 1;
   transform: translateY(0);
 }
@@ -1563,6 +1574,61 @@ body .frame-line.left-frame {
   .portfolio-masonry-wrapper[data-col="four"] .portfolio-item {
     width: 100%;
   }
+}
+.portfolio-masonry-centered {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.portfolio-grid-centered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.portfolio-grid-centered:after {
+  display: none;
+}
+.portfolio-masonry-centered .portfolio-grid-centered .portfolio-item {
+  float: none;
+  width: calc(33.333% - 14px);
+  max-width: 360px;
+  padding: 0 !important;
+  margin: 0;
+  box-sizing: border-box;
+}
+.portfolio-masonry-centered .portfolio-grid-centered .portfolio-item a {
+  background-color: #000;
+}
+.portfolio-masonry-centered .portfolio-grid-centered .portfolio-item a img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  background-color: #000;
+}
+.portfolio-masonry-centered .portfolio-grid-centered .portfolio-item--panoramic a img {
+  object-fit: contain;
+}
+@media (max-width: 74.9em) {
+  .portfolio-masonry-centered .portfolio-grid-centered .portfolio-item {
+    width: calc(50% - 10px);
+    max-width: 420px;
+  }
+}
+@media (max-width: 47.9em) {
+  .portfolio-masonry-centered .portfolio-grid-centered .portfolio-item {
+    width: 100%;
+    max-width: 480px;
+  }
+}
+.project-date {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #a5a5a5;
+  margin-bottom: 14px;
 }
 .single-project {
   padding-top: 150px;

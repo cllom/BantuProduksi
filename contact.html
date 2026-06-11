@@ -23,6 +23,36 @@
 		<!-- CUSTOM CSS -->
 		<link rel="stylesheet" href="css/style.css">
 
+		<style>
+			.whatsapp-contact-btn {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				gap: 10px;
+				background-color: #25D366;
+				color: #fff !important;
+				padding: 12px 26px;
+				border-radius: 999px;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 16px;
+				font-weight: 600;
+				line-height: 1;
+				text-decoration: none !important;
+				transition: background-color 0.2s ease;
+				white-space: nowrap;
+			}
+			.whatsapp-contact-btn:hover,
+			.whatsapp-contact-btn:focus {
+				background-color: #1da851;
+				color: #fff !important;
+				text-decoration: none !important;
+			}
+			.whatsapp-contact-btn .fa-whatsapp {
+				font-size: 22px;
+				line-height: 1;
+			}
+		</style>
+
 	</head>
 
 	<body>
@@ -66,6 +96,18 @@
 
 								<ul>
 									<li>
+										<a href="portfolio.html" class="animsition-link">
+											<span>Portfolio</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="about.html" class="animsition-link">
+											<span>About</span>
+										</a>
+									</li>
+
+									<li>
 										<a href="contact.html" class="animsition-link">
 											<span>Contact</span>
 										</a>
@@ -98,26 +140,31 @@
 					<div class="padding">
 						<div class="container">
 							<div class="row">
-								<div class="col-xs-6">
+								<div class="col-md-4 col-xs-12">
 									<div class="contact-box text-center">
 										<h5>Location</h5>
-										<p>Jakarta, Indonesia
-										</p>
+										<p>Jakarta, Indonesia</p>
 									</div>
-									<!-- END CONTACT-BOX -->
 								</div>
 
-								<div class="col-xs-6s">
+								<div class="col-md-4 col-xs-12">
 									<div class="contact-box text-center">
 										<h5>Email Us</h5>
 										<p>
-											<a href=mailto:“m.cellotania@gmail.com”>m.cellotania@gmail.com</a>
+											<a href="mailto:m.cellotania@gmail.com">m.cellotania@gmail.com</a>
 										</p>
-										<h5>WhatsApp</h5>
-										<a aria-label="Chat on WhatsApp" href="https://wa.me/4915209131295"> <img alt="Chat on WhatsApp" src="https://scontent.whatsapp.net/v/t39.8562-34/420077459_703742575180618_3955965302853713788_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=0XIXO_IFc5kQ7kNvwGDA41J&_nc_oc=AdliNnx7a-NL5qC3XbFdxgmnWZDRTkGg2aD7Rh28W0P5YGurEH_gE-J9pdUvpRlHjdQ&_nc_zt=3&_nc_ht=scontent.whatsapp.net&_nc_gid=t9Y0eaaKiLkML0L9ZaKjnQ&oh=01_Q5Aa2wH0HqHEoKUXRGnXEM_zhLnsBduuSemv7mivFV0NVxyUyg&oe=68EC4268" />
-											<a />
 									</div>
-									<!-- END CONTACT-BOX -->
+								</div>
+
+								<div class="col-md-4 col-xs-12">
+									<div class="contact-box text-center">
+										<h5>WhatsApp</h5>
+										<p>
+											<a class="whatsapp-contact-btn" aria-label="Chat on WhatsApp" href="https://wa.me/16178636397" target="_blank" rel="noopener noreferrer">
+												<span>Chat on WhatsApp</span>
+											</a>
+										</p>
+									</div>
 								</div>
 
 							</div>
