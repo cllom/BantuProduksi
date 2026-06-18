@@ -25,7 +25,7 @@
 
 	</head>
 
-	<body>
+	<body data-page="home">
 
 		<!-- FRAMES -->
 		<span class="frame-line top-frame"></span>
@@ -67,25 +67,25 @@
 								<ul>
 									<li>
 										<a href="portfolio.html" class="animsition-link">
-											<span>Portfolio</span>
+											<span data-i18n="nav.portfolio">Portfolio</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="about.html" class="animsition-link">
-											<span>About</span>
+											<span data-i18n="nav.about">About</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="contact.html" class="animsition-link">
-											<span>Contact</span>
+											<span data-i18n="nav.contact">Contact</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="jobs.html" class="animsition-link">
-											<span>Join our Team</span>
+											<span data-i18n="nav.jobs">Join our Team</span>
 										</a>
 									</li>
 								</ul>
@@ -107,7 +107,7 @@
 									<h1>Shaping Ideas into Ready-to-Make Products.</h1>
 									<p>Produksi mudah, usaha maju.</p>
 									<div class="price-footer">
-										<a href="https://wa.me/16178636397" class="button button-default">Start Your Quote</a>
+										<a href="https://wa.me/16178636397" class="button button-default" data-i18n="cta.quote">Start Your Quote</a>
 									</div>
 								</div>
 							</div>
@@ -134,7 +134,7 @@
 										<div class="progress-outer">
 											<div class="progress-inner"></div>
 										</div>
-										<h6>Manufacturing -
+										<h6 id="progress-1">Manufacturing -
 											<span>100</span>%</h6>
 									</div>
 									<!-- END PROGRESS-BAR -->
@@ -144,7 +144,7 @@
 										<div class="progress-outer">
 											<div class="progress-inner"></div>
 										</div>
-										<h6>Innovation & R&D -
+										<h6 id="progress-2">Innovation & R&D -
 											<span>90</span>%</h6>
 									</div>
 									<!-- END PROGRESS-BAR -->
@@ -154,7 +154,7 @@
 										<div class="progress-outer">
 											<div class="progress-inner"></div>
 										</div>
-										<h6>Web design & Software -
+										<h6 id="progress-3">Web design & Software -
 											<span>98</span>%</h6>
 									</div>
 									<!-- END PROGRESS-BAR -->
@@ -164,7 +164,7 @@
 										<div class="progress-outer">
 											<div class="progress-inner"></div>
 										</div>
-										<h6>Product Development -
+										<h6 id="progress-4">Product Development -
 											<span>95</span>%</h6>
 									</div>
 									<!-- END PROGRESS-BAR -->
@@ -175,7 +175,7 @@
 					</div>
 
 					<div class="container">
-						<h1>Our Production Facility</h1>
+						<h1 id="facility-title">Our Production Facility</h1>
 						<div class="row">
 							<div class="col-md-6">
 								<div
@@ -312,10 +312,10 @@
 									<div class="team-item">
 										<img src="img/badges/best-value.jpg" alt="">
 										<div class="team-content">
-											<div class="team-name">
+											<div class="team-name" id="badge-1-name">
 												Best Value
 											</div>
-											<div class="team-function">
+											<div class="team-function" id="badge-1-desc">
 												Manufacturer Direct Pricing
 											</div>
 										</div>
@@ -326,10 +326,10 @@
 									<div class="team-item">
 										<img src="img/badges/fast-turn-around.jpg" alt="">
 										<div class="team-content">
-											<div class="team-name">
+											<div class="team-name" id="badge-2-name">
 												Fast Turnaround
 											</div>
-											<div class="team-function">
+											<div class="team-function" id="badge-2-desc">
 												As fast as 24 hours
 											</div>
 										</div>
@@ -340,10 +340,10 @@
 									<div class="team-item">
 										<img src="img/badges/assist.jpg" alt="">
 										<div class="team-content">
-											<div class="team-name">
+											<div class="team-name" id="badge-3-name">
 												One on One Assistance
 											</div>
-											<div class="team-function">
+											<div class="team-function" id="badge-3-desc">
 												Smooth shopping experience
 											</div>
 										</div>
@@ -359,14 +359,14 @@
 
 
 						<div class="container">
-							<h1>Why BantuProduksi</h1>
+							<h1 id="why-title">Why BantuProduksi</h1>
 
-								<p>
+								<p id="why-intro">
 								  We make production simple and reliable. With expertise across multiple materials and industries, 
 								  BantuProduksi is the trusted partner for turning your ideas into real products.
 								</p>
 							  
-								<ul>
+								<ul id="why-list">
 								  <li>
 									<strong>✔ Proven Capacity</strong><br>
 									High-volume manufacturing across textiles, metal, wood, and plastics.
@@ -409,9 +409,9 @@
 									</a>
 								</div>
 								-->
-								<p class="copy">&copy; 2026 BantuProduksi. All rights reserved.</p>
+								<p class="copy" data-i18n="footer.copy">&copy; 2026 BantuProduksi. All rights reserved.</p>
 
-								<div class="scroll-top">go to top</div>
+								<div class="scroll-top" data-i18n="footer.top">go to top</div>
 							</div>
 						</div>
 
@@ -430,6 +430,7 @@
 		<script src="scripts/plugins.min.js"></script>
 
 		<!-- CUSTOM SCRIPT -->
+		<script src="scripts/i18n.js"></script>
 		<script src="scripts/script.js"></script>
 
 	</body>

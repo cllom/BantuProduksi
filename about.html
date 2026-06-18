@@ -25,7 +25,7 @@
 
 	</head>
 
-	<body>
+	<body data-page="about">
 
 		<!-- FRAMES -->
 		<span class="frame-line top-frame"></span>
@@ -67,25 +67,25 @@
 								<ul>
 									<li>
 										<a href="portfolio.html" class="animsition-link">
-											<span>Portfolio</span>
+											<span data-i18n="nav.portfolio">Portfolio</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="about.html" class="animsition-link">
-											<span>About</span>
+											<span data-i18n="nav.about">About</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="contact.html" class="animsition-link">
-											<span>Contact</span>
+											<span data-i18n="nav.contact">Contact</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="jobs.html" class="animsition-link">
-											<span>Join our Team</span>
+											<span data-i18n="nav.jobs">Join our Team</span>
 										</a>
 									</li>
 								</ul>
@@ -126,23 +126,23 @@
 									<div class="row" style="margin-top: 50px;">
 										<div class="col-md-6">
 											<div class="small-title">
-												<h4>Who We Are</h4>
+												<h4 id="about-who-title">Who We Are</h4>
 											</div>
-											<p>
+											<p id="about-who-1">
 												BantuProduksi is a full-service manufacturing partner based in Indonesia. We combine textiles, metals, plastics, wood, electronics, and digital fabrication under one roof — so entrepreneurs, brands, and institutions can go from idea to finished product with a single team they trust.
 											</p>
-											<p>
+											<p id="about-who-2">
 												Think of us the way the tech world thinks of TSMC: NVIDIA, Intel, AMD, and Apple design the chips — TSMC fabricates them at scale. You bring the vision, brand, and market. We bring the production floor, engineering, and quality control.
 											</p>
 										</div>
 										<div class="col-md-6">
 											<div class="small-title">
-												<h4>What You Focus On</h4>
+												<h4 id="about-focus-title">What You Focus On</h4>
 											</div>
-											<p>
+											<p id="about-focus-p">
 												Your business should spend its energy on what creates the most value — product design, customer relationships, marketing, distribution, and growth. BantuProduksi handles the rest: prototyping, sourcing, machining, sewing, assembly, testing, and delivery.
 											</p>
-											<ul>
+											<ul id="about-focus-list">
 												<li>Design and brand — yours</li>
 												<li>Sales, partnerships, and go-to-market — yours</li>
 												<li>Manufacturing, fabrication, and scale-up — ours</li>
@@ -153,9 +153,9 @@
 									<div class="row" style="margin-top: 50px;">
 										<div class="col-md-12">
 											<div class="small-title">
-												<h4>Building Capability — Not Just Products</h4>
+												<h4 id="about-cap-title">Building Capability — Not Just Products</h4>
 											</div>
-											<p>
+											<p id="about-cap-p">
 												We do more than fill orders. We help businesses develop real research and product-creation capability — so they are not locked into off-the-shelf goods forever. Whether you need a first prototype, a small batch, or volume production, we work alongside your team through development, iteration, and launch.
 											</p>
 										</div>
@@ -164,17 +164,17 @@
 									<div class="row" style="margin-top: 50px;">
 										<div class="col-md-6">
 											<div class="small-title">
-												<h4>What We Make</h4>
+												<h4 id="about-make-title">What We Make</h4>
 											</div>
-											<p>
+											<p id="about-make-p">
 												From uniforms and home textiles to precision metal parts, custom furniture, automated architectural systems, and PCB-driven prototypes — if a city buys it, we can likely help you build it. Our portfolio spans hospitality, retail, architecture, electronics, and industrial supply chains across Indonesia.
 											</p>
 										</div>
 										<div class="col-md-6">
 											<div class="small-title">
-												<h4>Educating the Next Generation</h4>
+												<h4 id="about-edu-title">Educating the Next Generation</h4>
 											</div>
-											<p>
+											<p id="about-edu-p">
 												Digital fabrication is changing how products are made. We are committed to educating young people — students, makers, and early-career engineers — about CNC, 3D printing, electronics, textiles, and modern production workflows so the next generation can design, build, and lead industries of their own.
 											</p>
 										</div>
@@ -183,14 +183,14 @@
 									<div class="row" style="margin-top: 50px;">
 										<div class="col-md-12 text-center">
 											<div class="small-title">
-												<h4>Ready to Build?</h4>
+												<h4 id="about-ready-title">Ready to Build?</h4>
 											</div>
-											<p>
-												Whether you are launching a new product line or scaling something that already sells, we are here to manufacture it — Made in Indonesia.
+											<p id="about-ready-p">
+												Whether you are launching a new product line or scaling something that already sells, we are here to manufacture it.
 											</p>
-											<a href="contact.html" class="button button-default animsition-link">Get in Touch</a>
+											<a href="contact.html" class="button button-default animsition-link" id="about-cta-contact">Get in Touch</a>
 											&nbsp;
-											<a href="portfolio.html" class="button button-default animsition-link">See Our Work</a>
+											<a href="portfolio.html" class="button button-default animsition-link" id="about-cta-portfolio">See Our Work</a>
 										</div>
 									</div>
 
@@ -221,9 +221,9 @@
 										<i class="fa fa-fw fa-google-plus"></i>
 									</a>
 								</div>
-						<p class="copy">&copy; 2026 BantuProduksi. All rights reserved.</p>
+						<p class="copy" data-i18n="footer.copy">&copy; 2026 BantuProduksi. All rights reserved.</p>
 
-								<div class="scroll-top">go to top</div>
+								<div class="scroll-top" data-i18n="footer.top">go to top</div>
 							</div>
 						</div>
 
@@ -242,6 +242,7 @@
 		<script src="scripts/plugins.min.js"></script>
 
 		<!-- CUSTOM SCRIPT -->
+		<script src="scripts/i18n.js"></script>
 		<script src="scripts/script.js"></script>
 
 	</body>

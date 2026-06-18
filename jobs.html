@@ -25,7 +25,7 @@
 
 	</head>
 
-	<body>
+	<body data-page="jobs">
 
 		<!-- FRAMES -->
 		<span class="frame-line top-frame"></span>
@@ -67,25 +67,25 @@
 								<ul>
 									<li>
 										<a href="portfolio.html" class="animsition-link">
-											<span>Portfolio</span>
+											<span data-i18n="nav.portfolio">Portfolio</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="about.html" class="animsition-link">
-											<span>About</span>
+											<span data-i18n="nav.about">About</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="contact.html" class="animsition-link">
-											<span>Contact</span>
+											<span data-i18n="nav.contact">Contact</span>
 										</a>
 									</li>
 
 									<li>
 										<a href="jobs.html" class="animsition-link">
-											<span>Join our Team</span>
+											<span data-i18n="nav.jobs">Join our Team</span>
 										</a>
 									</li>
 								</ul>
@@ -119,7 +119,8 @@
 						<div class="container">
 							<div class="row">
 								
-									<div>
+									<div id="jobs-content">
+										<div>
 										<h5>CAM & Prototype</h5>
 										<ul>
 											<li>Pria/Wanita</li>
@@ -129,7 +130,7 @@
 											dan programming mesin CNC</li>
 											<li>Penempatan di Jakarta</li>
 										</ul>
-									</div>
+										</div>
 
 									<br>
 
@@ -174,7 +175,8 @@
 									</div>
 
 									<br><br>
-									<div>*Hubungi kami melalui whatsapp atau
+									</div>
+									<div id="jobs-footer-note">*Hubungi kami melalui whatsapp atau
 									email dan kirimkan lamaran anda dan CV
 									sebelum tanggal 15 Febuari 2026.</div>
 
@@ -206,9 +208,9 @@
 									</a>
 								</div>
 								 -->
-								<p class="copy">&copy; 2026 BantuProduksi. All rights reserved.</p>
+								<p class="copy" data-i18n="footer.copy">&copy; 2026 BantuProduksi. All rights reserved.</p>
 
-								<div class="scroll-top">go to top</div>
+								<div class="scroll-top" data-i18n="footer.top">go to top</div>
 							</div>
 						</div>
 
@@ -230,6 +232,7 @@
 		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 		<!-- CUSTOM SCRIPT -->
+		<script src="scripts/i18n.js"></script>
 		<script src="scripts/script.js"></script>
 
 	</body>

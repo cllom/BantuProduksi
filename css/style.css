@@ -267,6 +267,34 @@ textarea {
 .footer a:hover {
   color: #ff1939;
 }
+.lang-switcher-item {
+  display: inline-block;
+}
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 4px;
+}
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #a5a5a5;
+  transition: color 0.2s ease;
+}
+.lang-btn:hover,
+.lang-btn.active {
+  color: #272727;
+}
+.lang-sep {
+  color: #d0d0d0;
+  font-weight: 400;
+}
 /*----------------------*/
 /*   ELEMENTS           */
 /*----------------------*/
