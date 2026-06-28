@@ -106,9 +106,53 @@
 				'#why-title': {
 					en: 'Why BantuProduksi',
 					id: 'Mengapa BantuProduksi'
+				},
+				'#faq-title': {
+					en: 'Frequently Asked Questions',
+					id: 'Pertanyaan yang Sering Diajukan'
 				}
 			},
 			html: {
+				'#faq-intro': {
+					en: 'New here? These answers explain what we do, who we work with, and how we can help you turn ideas into real products.',
+					id: 'Baru kenal kami? Jawaban di bawah ini menjelaskan apa yang kami lakukan, siapa mitra kami, dan bagaimana kami membantu Anda mengubah ide menjadi produk nyata.'
+				},
+				'#faq-q1': { en: 'What is BantuProduksi?', id: 'Apa itu BantuProduksi?' },
+				'#faq-a1': {
+					en: 'BantuProduksi is a full-service manufacturing partner based in Indonesia. We combine textiles, metals, plastics, wood, electronics, and digital fabrication under one roof \u2014 so entrepreneurs, brands, and institutions can go from idea to finished product without needing to own a factory.',
+					id: 'BantuProduksi adalah mitra manufaktur layanan lengkap berbasis di Indonesia. Kami menggabungkan tekstil, logam, plastik, kayu, elektronik, dan fabrikasi digital dalam satu atap \u2014 sehingga pengusaha, merek, dan institusi dapat dari ide hingga produk jadi tanpa harus memiliki pabrik sendiri.'
+				},
+				'#faq-q2': { en: 'What is Manufacturing-as-a-Service (MaaS)?', id: 'Apa itu Manufaktur-sebagai-Layanan (MaaS)?' },
+				'#faq-a2': {
+					en: 'MaaS means you focus on what creates the most value \u2014 design, brand, sales, and growth \u2014 while we handle prototyping, sourcing, machining, sewing, assembly, quality control, and delivery. You bring the vision and market; we bring the production floor and engineering.',
+					id: 'MaaS berarti Anda fokus pada hal yang menciptakan nilai terbesar \u2014 desain, merek, penjualan, dan pertumbuhan \u2014 sementara kami menangani prototipe, sourcing, machining, jahit, perakitan, kontrol kualitas, dan pengiriman. Anda bawa visi dan pasar; kami bawa lantai produksi dan rekayasa.'
+				},
+				'#faq-q7': { en: 'Do you also develop and research products?', id: 'Apakah Anda juga mengembangkan dan melakukan riset produk?' },
+				'#faq-a7': {
+					en: 'Yes. We do more than fill orders \u2014 we also develop and conduct research with you, from early concept and material exploration through prototyping, testing, and iteration, all the way into production and scale-up. You are not locked into off-the-shelf solutions; we help you build real product capability.',
+					id: 'Ya. Kami lebih dari sekadar memenuhi pesanan \u2014 kami juga mengembangkan dan melakukan riset bersama Anda, dari konsep awal dan eksplorasi material melalui prototipe, pengujian, dan iterasi, hingga produksi dan scale-up. Anda tidak terjebak pada solusi jadi; kami membantu membangun kapabilitas produk yang nyata.'
+				},
+				'#faq-q3': { en: 'What products can you make?', id: 'Produk apa saja yang bisa dibuat?' },
+				'#faq-a3': {
+					en: 'From uniforms and home textiles to precision metal parts, custom furniture, automated architectural systems, and electronics prototypes \u2014 if a city buys it, we can likely help you build it. Our work spans hospitality, retail, architecture, electronics, and industrial supply chains.',
+					id: 'Dari seragam dan tekstil rumah hingga komponen logam presisi, furnitur kustom, sistem arsitektur otomatis, dan prototipe elektronik \u2014 jika kota membutuhkannya, kami dapat membantu Anda membuatnya. Karya kami mencakup hospitality, retail, arsitektur, elektronik, dan rantai pasok industri.'
+				},
+				'#faq-q4': { en: 'Who do you work with?', id: 'Siapa saja mitra kerja Anda?' },
+				'#faq-a4': {
+					en: 'We partner with startups, established brands, architects, institutions, and businesses of all sizes across Indonesia. Whether you are launching a new product line or scaling something that already sells, we work alongside your team through development, iteration, and launch.',
+					id: 'Kami bermitra dengan startup, merek mapan, arsitek, institusi, dan bisnis dari berbagai skala di Indonesia. Baik Anda meluncurkan lini produk baru atau menskalakan produk yang sudah laku, kami bekerja bersama tim Anda dari pengembangan, iterasi, hingga peluncuran.'
+				},
+				'#faq-q5': { en: 'Do I need a finished design before contacting you?', id: 'Apakah saya harus punya desain jadi sebelum menghubungi?' },
+				'#faq-a5': {
+					en: 'No. We support the full journey \u2014 from first sketches and one-off prototypes to small batches and high-volume production. Bring an early idea, a rough concept, or a ready-to-manufacture design and we will help you figure out the next step.',
+					id: 'Tidak. Kami mendukung perjalanan penuh \u2014 dari sketsa awal dan prototipe satuan hingga batch kecil dan produksi volume tinggi. Bawa ide awal, konsep kasar, atau desain siap produksi dan kami akan bantu menentukan langkah berikutnya.'
+				},
+				'#faq-q6': { en: 'How can you help me get started?', id: 'Bagaimana cara memulai dengan BantuProduksi?' },
+				'#faq-a6': {
+					en: 'Reach out via WhatsApp or our contact page with a brief description of your project \u2014 materials, quantity, timeline, and any drawings or photos you have. We will discuss scope and pricing, then guide you through prototyping, production, and delivery with clear communication at every stage.',
+					id: 'Hubungi kami via WhatsApp atau halaman kontak dengan deskripsi singkat proyek Anda \u2014 material, jumlah, timeline, serta gambar atau foto yang Anda miliki. Kami akan diskusikan ruang lingkup dan harga, lalu memandu Anda melalui prototipe, produksi, dan pengiriman dengan komunikasi yang jelas di setiap tahap.'
+				},
+				'#faq-cta': { en: strings.en['cta.quote'], id: strings.id['cta.quote'] },
 				'#why-intro': {
 					en: 'We make production simple and reliable. With expertise across multiple materials and industries, BantuProduksi is the trusted partner for turning your ideas into real products.',
 					id: 'Kami membuat produksi menjadi sederhana dan andal. Dengan keahlian di berbagai material dan industri, BantuProduksi adalah mitra terpercaya untuk mengubah ide Anda menjadi produk nyata.'
