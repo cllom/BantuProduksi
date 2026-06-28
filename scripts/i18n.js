@@ -99,7 +99,7 @@
 					en: 'Our Production Facility',
 					id: 'Fasilitas Produksi Kami'
 				},
-				'.large-title h1': {
+				'#in-house-title': {
 					en: 'In-House Manufacturing',
 					id: 'Manufaktur Internal'
 				},
@@ -110,9 +110,18 @@
 				'#faq-title': {
 					en: 'Frequently Asked Questions',
 					id: 'Pertanyaan yang Sering Diajukan'
+				},
+				'#featured-projects-title': {
+					en: 'Featured Projects',
+					id: 'Proyek Unggulan'
 				}
 			},
 			html: {
+				'#featured-projects-intro': {
+					en: 'Real work across bio STEAM, architecture, textiles, and custom fabrication \u2014 from research to finished product.',
+					id: 'Karya nyata di bio STEAM, arsitektur, tekstil, dan fabrikasi kustom \u2014 dari riset hingga produk jadi.'
+				},
+				'#featured-projects-cta': { en: strings.en['cta.see_work'], id: strings.id['cta.see_work'] },
 				'#faq-intro': {
 					en: 'New here? These answers explain what we do, who we work with, and how we can help you turn ideas into real products.',
 					id: 'Baru kenal kami? Jawaban di bawah ini menjelaskan apa yang kami lakukan, siapa mitra kami, dan bagaimana kami membantu Anda mengubah ide menjadi produk nyata.'
